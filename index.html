@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="/style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<form>
+			<div class="formsArea">
+				<div class="form-group">
+					<label for="formGroupExampleInput">Username</label>
+					<input
+						type="text"
+						class="form-control"
+						id="formGroupExampleInput"
+						placeholder="Enter username"
+						required
+					/>
+				</div>
+				<div class="form-group">
+					<label for="exampleInputPassword1">Password</label>
+					<input
+						type="password"
+						class="form-control"
+						id="exampleInputPassword1"
+						placeholder="Enter password"
+						maxlength="12"
+						minlength="4"
+						required
+					/>
+					<small id="emailHelp" class="form-text text-muted"
+						>Your password is between 4 and 12 characters</small
+					>
+				</div>
+				<div class="form-group">
+					<label for="formGroupExampleInput">Input Text Label</label>
+					<input
+						type="text"
+						class="form-control"
+						id="formGroupExampleInput"
+						placeholder="Input text"
+						required
+					/>
+				</div>
+			</div>
+
+			<div class="remember">
+				<div class="form-check">
+					<input
+						class="form-check-input"
+						type="checkbox"
+						id="flexCheckDefault"
+						value="Remember"
+						required
+					/>
+					<label class="form-check-label" for="flexCheckDefault">
+						Remember me
+					</label>
+				</div>
+			</div>
+
+			<div class="switcher">
+				<div>
+					<label class="switch">
+						<input class="onOff" type="checkbox" value="on" required />
+						<span class="slider round"></span>
+					</label>
+				</div>
+				<div class="switcherText"><p>Off</p></div>
+			</div>
+			<div class="radioBtn">
+				<div class="form-check">
+					<input
+						class="form-check-input"
+						type="radio"
+						name="flexRadioDefault"
+						id="flexRadioDefault1"
+						value="Radio selection 1"
+						required
+					/>
+					<label class="form-check-label" for="flexRadioDefault1">
+						Radio selection 1
+					</label>
+				</div>
+				<div class="form-check">
+					<input
+						class="form-check-input"
+						type="radio"
+						name="flexRadioDefault"
+						id="flexRadioDefault2"
+						value="Radio selection 2"
+					/>
+					<label class="form-check-label" for="flexRadioDefault2">
+						Radio selection 2
+					</label>
+				</div>
+				<div class="form-check">
+					<input
+						class="form-check-input"
+						type="radio"
+						name="flexRadioDefault"
+						id="flexRadioDefault3"
+						value="Radio selection 3"
+					/>
+					<label class="form-check-label" for="flexRadioDefault3">
+						Radio selection 3
+					</label>
+				</div>
+			</div>
+
+			<div class="dropDown">
+				<select
+					class="form-select form-select-lg mb-3"
+					aria-label=".form-select-lg пример"
+				>
+					<option selected value="Dropdown option 1">Dropdown option</option>
+					<option value="Dropdown option 2">Dropdown option 2</option>
+					<option value="Dropdown option 3">Dropdown option 3</option>
+				</select>
+			</div>
+			<div class="buttons">
+				<button type="reset" class="btn btn-primary">Cancel</button>
+				<button type="submit" class="btn btn-primary" id="submit">Next</button>
+			</div>
+		</form>
+
+		<script src="/script.js"></script>
+		<script
+			src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
